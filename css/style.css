@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Coiny&family=Inter:wght@200&display=swap");
+* {
+  font-family: "inter" !important;
+}
+.site {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+/*-----------------------*/
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+form.container {
+  align-items: center;
+  flex-direction: column;
+}
+.container {
+  background-color: black;
+  padding: 3em;
+  border-radius: 5px;
+  height: 400px;
+}
+.container h1 {
+  font-size: 2em;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 2em;
+}
+.container div {
+  display: flex;
+  flex-direction: column;
+}
+.inputs input {
+  background-color: #333;
+  color: #8c8c8c;
+  width: 250px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: none;
+  padding: 1em;
+}
+input[type="submit"] {
+  width: 277px;
+  padding: 1em;
+  margin-top: 3em;
+  background-color: #E50914;
+  color: white;
+  cursor: pointer;
+}
+input[type="checkbox"] {
+  position: relative;
+  right: 120px;
+}
+.botao{
+  display: flex;
+  color: #8c8c8c;
+}
+.botao p {
+  position: relative;
+  right: 237px;
+  font-size: 14px;
+}
+.botao a {
+  text-decoration: none;
+  color: #8c8c8c;
+  font-size: 14px;
+  margin-left: -223px;
+}
